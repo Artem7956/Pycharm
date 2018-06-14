@@ -6,14 +6,14 @@ class animal:
     def make_voice(self):
         print(self.voice)
         
-    pass
+
 class bird(animal):
     ration='Зерно'
     fly = None
-    pass
+
 class mammals(animal):
     ration='Трава'
-    pass
+
 class cow(mammals):
     voice='Му'
     
@@ -26,7 +26,7 @@ class cow(mammals):
         
 
     
-    pass
+
 class sheep(mammals):
     voice='Бееее'
     max_wool=5
@@ -36,17 +36,17 @@ class sheep(mammals):
         else:
             return "У меня нет "+ str(c) + ' килограмм шерсти. Вот только '+str(self.max_wool)+' килограмм'  
         
-    pass
+
 class pig(mammals):
     voice='Хрю'
-    pass
+
 class goat(mammals):
     voice='Меее'
-    pass
+
 class duck(bird):
     voice='Кря'
     fly=True
-    pass
+
 class chicken(bird):
     voice='Кукареку'
     eggs=0
@@ -59,11 +59,11 @@ class chicken(bird):
         else: return "Я сегодня уже давала яйца"
         
     
-    pass
+
 class gees(bird):
     voice='Гага'
     fly=True
-    pass
+
 d1=duck()
 d1.make_voice()
 c1=cow()
